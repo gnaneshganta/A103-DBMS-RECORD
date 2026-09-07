@@ -1,0 +1,62 @@
+SQL> insert into newdetail values ('&regno','&name','&dob','&gender','&coursename','&year','&department');
+Enter value for regno: A103
+Enter value for name: gnanesh
+Enter value for dob: 26-des-2006
+Enter value for gender: m
+Enter value for coursename: B.E
+Enter value for year: 3
+Enter value for department: CSE
+old   1: insert into newdetail values ('&regno','&name','&dob','&gender','&coursename','&year','&department')
+new   1: insert into newdetail values ('A103','gnanesh','26-dec-2006','m','B.E','3','CSE')
+
+1 row created.
+
+SQL> select * from newdetail
+  2
+SQL> select * from newdetail;
+
+REGNO      NAME            DOB       G COURSENAME                 YEAR
+---------- --------------- --------- - -------------------- ----------
+DEPARTMENT
+----------
+11249A103  gnanesh          26-dec-06 m B.E                           3
+CSE(AIML)
+
+A113      hari         16-JUN-06 m B.E                           3
+CSE
+
+
+SQL> insert into newdetail values ('&regno','&name','&dob','&gender','&coursename','&year','&department')
+  2  ;
+Enter value for regno: A103
+Enter value for name: gnanesh
+Enter value for dob: 26-dec-2006
+Enter value for gender: m
+Enter value for coursename: B.E
+Enter value for year: 3
+Enter value for department: CSE
+old   1: insert into newdetail values ('&regno','&name','&dob','&gender','&coursename','&year','&department')
+new   1: insert into newdetail values ('A103','gnanesh','26-dec-2006','m','B.E','3','CSE')
+
+1 row created.
+
+SQL> select * from student;
+
+no rows selected
+
+SQL> select * from newdetail
+  2
+SQL> select * from newdetail;
+
+REGNO      NAME            DOB       G COURSENAME                 YEAR
+---------- --------------- --------- - -------------------- ----------
+DEPARTMENT
+----------
+11249A103  gnanesh          26-dec-06 m B.E                           3
+CSE(AIML)
+
+A113       hari         16-JUN-06 m B.E                           3
+CSE
+
+A126       hema            10-SEP-04 f B.E                           3
+CSE
